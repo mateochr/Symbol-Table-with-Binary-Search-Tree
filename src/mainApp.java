@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class mainApp {
-	static private SymbolTable spct = new SymbolTable(); //spct to call methods from ST.
+	static private ST spct = new ST(); //spct to call methods from ST.
 	public static void main(String[] args){
 		int answer;
 		//the menu
