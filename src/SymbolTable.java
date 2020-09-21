@@ -7,7 +7,7 @@ import java.io.InputStreamReader;
 import java.io.PrintStream;
 import java.util.Scanner;
 
-public class SymbolTable {
+public class ST {
 	
 	private class TreeNode {
 		Suspect item;
@@ -36,7 +36,7 @@ public class SymbolTable {
 	List list1 = new List(); // list used in searchByLastName
 	Suspect[] array = new Suspect[size]; //array used in printTopSuspects
 	//root = null
-	SymbolTable(){
+	ST(){
 		head = null; 
 	}
 	
@@ -282,7 +282,7 @@ public class SymbolTable {
 	
 	
 	private TreeNode succ (TreeNode p){
-		// The successor is the leftmost leaf of q’s right subtree
+		// The successor is the leftmost leaf of qâ€™s right subtree
 		if(p.r != null){
 			TreeNode node = p.r;
 			while (node.l != null) node = node.l;
