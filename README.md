@@ -9,3 +9,8 @@ The symbol table class `ST` is implemented using the above classes and has some 
 * `insert_at_root`
 
 In the main app the user can load suspects in the tree from a txt file with the specific format AFM first_name last_name savings taxed_income or insert a suspect himself. All this is operated in a cmd menu. 
+
+## HowTo
+Open cmd in the same folder as the .java files and run the commands below
+`javac mainApp.java` and then `java mainApp`
+
